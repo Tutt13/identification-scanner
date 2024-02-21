@@ -1,0 +1,5 @@
+/bluetooth.hppt/scanner0867@
+client_socket, address = server_socket.accept()
+ data = client_socket.recv(1024)
+client_socket.close()
+server_socket.close()
